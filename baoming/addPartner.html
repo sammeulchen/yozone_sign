@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>添加搭档</title>
+    <link href="../lib/css/ionic.min.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/user.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bar-positive">
+        <a href="doubleProject.html">
+            <div>
+                <img src="../img/back.gif"/>
+            </div>
+        </a>
+        <span>添加搭档</span>
+        <span style="display: none">添加队员</span>
+        <span><a href="addNewPartner.html">添加新搭档</a></span>
+        <span style="display: none">添加新队员</span>
+    </header>
+    <div style="display: none">
+        <div class="no-partner">
+            <div class="no-partner-title">
+                    <span>
+                      <img src="../img/home/partner-title-bg.png"/>
+                    </span>
+                <span>
+                   <img src="../img/home/invited-partner1.png"/>
+                   <!--<img src="../img/home/invited-partner2.png"/>-->
+                </span>
+
+            </div>
+            <div  class="weChat-invited" ng-click="invite(orderId)">微信邀请搭档（推荐）</div>
+            <!--<div class="weChat-invited" ng-click="invite(orderId)">微信邀请队员（推荐）</div>-->
+
+            <div style="width: 100%;text-align: center">
+                <img style="display:inline-block;width:200px;height: 200px;margin-top: 10px" src="../img/linshi5.png">
+                <span style="display: inline-block;width: 100%;padding:0 20px;font-size: 16px;">若分享链接无法进入，请长按上方二维码并发送给朋友，邀请好友加入队伍</span>
+            </div>
+        </div>
+    </div>
+    <div class="has-partner">
+        <ul class="players-list">
+            <li class="players-list-member">
+                <div class="list-left">
+                    <input name="partner" type="radio" value="1"/>
+                </div>
+                <div class="list">
+                    <div class="item item-avatar perfert-player ">
+                        <img class="head-portrait" src="../img/linshi5.png"/>
+                        <span class="name">参赛人</span>
+                        <!--<span class="sex-p">
+                            <img src="../img/icon-boy.png">
+                            <img src="../img/icon-girl.png">
+                            <i>20</i>
+                        </span>-->
+                        <span class="sex-pm">
+                            <img src="../img/home/man.png">
+                            <!--<img src="../img/home/femal.png">-->
+                        </span>
+
+                        <div class="rank-g">
+                            <span class="wind">单打<img src="../img/wind-white.gif"/></span>
+                            <!--<span class="forest">单打<img src="../img/forest-white.gif"/></span>
+                            <span class="fire">单打<img src="../img/fire-white.gif"/></span>
+                            <span class="mount">单打<img src="../img/mount-white.gif"/></span>-->
+                            <span class="wind">双打<img src="../img/wind-white.gif"/></span>
+                            <!--<span class="forest">双打<img src="../img/forest-white.gif"/></span>
+                            <span class="fire">双打<img src="../img/fire-white.gif"/></span>
+                            <span class="mount">双打<img src="../img/mount-white.gif"/></span>-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="players-list" style="display: none">
+            <li class="players-list-member">
+                <div class="list-left">
+                    <input name="partner" type="checkbox" value="1"/>
+                </div>
+                <div class="list">
+                    <div class="item item-avatar perfert-player ">
+                        <img class="head-portrait" src="../img/linshi5.png"/>
+                        <span class="name">参赛人</span>
+                        <!--<span class="sex-p">
+                            <img src="../img/icon-boy.png">
+                            <img src="../img/icon-girl.png">
+                            <i>20</i>
+                        </span>-->
+                        <span class="sex-pm">
+                            <img src="../img/home/man.png">
+                            <!--<img src="../img/home/femal.png">-->
+                        </span>
+
+                        <div class="rank-g">
+                            <span class="wind">单打<img src="../img/wind-white.gif"/></span>
+                            <!--<span class="forest">单打<img src="../img/forest-white.gif"/></span>
+                            <span class="fire">单打<img src="../img/fire-white.gif"/></span>
+                            <span class="mount">单打<img src="../img/mount-white.gif"/></span>-->
+                            <span class="wind">双打<img src="../img/wind-white.gif"/></span>
+                            <!--<span class="forest">双打<img src="../img/forest-white.gif"/></span>
+                            <span class="fire">双打<img src="../img/fire-white.gif"/></span>
+                            <span class="mount">双打<img src="../img/mount-white.gif"/></span>-->
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="add-p-btn">完成</div>
+   <!-- <div class="share-g">
+        <img src="img/pic-share.png"/>
+        <p>快点这里邀请搭档吧！</p>
+        <p>快点这里邀请队员吧！</p>
+    </div>-->
+</body>
+</html>

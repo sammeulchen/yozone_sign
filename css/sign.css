@@ -1,0 +1,313 @@
+.page-bg{
+    width:100%;
+    min-height:100%;
+    position: absolute;
+    background: url("../images/page_bg1.gif") repeat;
+    background-size: 7.5rem 1.84rem;
+}
+.page-bg1{
+    width:100%;
+    min-height:100%;
+    position: absolute;
+    background: url("../images/page_bg2.gif") repeat;
+    background-size: 7.5rem 1.84rem;
+}
+.name-bg{
+    width: 100%;
+    height:2.69rem;
+
+    background: url("../images/name_bg.png") no-repeat;
+    background-size: 100% 3.22rem;
+    padding-top: 0.53rem;
+    text-align: center;
+}
+.photo{
+    display: inline-block;
+    width:1.4rem;
+    height:1.4rem;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+}
+.photo img{
+    width:1.4rem;
+    height:1.4rem;
+    border-radius: 50%;
+}
+.name-bg p{
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 0.05rem;
+    font-weight: 700;
+}
+.btn-click{
+    padding: 0 0.4rem;
+    height:0.92rem;
+}
+.btn-click1{
+    margin-top: 1.49rem;
+}
+.btn-click2{
+    margin-top: 0.6rem;
+}
+.btn-click3{
+    width: 6.7rem;
+    position: fixed;
+    bottom: 0;
+    height: 1.22rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
+.btn-click a{
+    display: block;
+    width:100%;
+    height:0.92rem;
+    line-height: 0.92rem;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0.08rem;
+    background: linear-gradient(to bottom,#00A9E5,#037BB9);
+}
+.btn-click3 a{
+    margin-top: 0.1rem;
+}
+.user-info{
+    padding: 0 0.4rem;
+    margin-top: 0.56rem;
+}
+.user-info-desc{
+    background: #FFFFFF;
+    border-radius: 0.08rem;
+    padding: 0 0.38rem;
+    box-shadow: 0 0 10px 1px #ccc;
+}
+.user-info-desc .line {
+    position:relative;
+}
+.user-info-desc .line:after {
+    width:200%;
+    height:200%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+    content:"";
+    -webkit-transform:scale(0.5);
+    -webkit-transform-origin:0 0;
+    transform:scale(0.5);
+    transform-origin:0 0;
+}
+.user-info-desc li {
+    width:100%;
+    margin:auto;
+    list-style:none;
+    padding:0;
+    min-height:1rem;
+    display: -webkit-flex;
+}
+.user-info-desc li:after {
+    border-bottom:1px solid #ccc;
+}
+.user-info-desc li:last-of-type:after {
+    border: none;
+}
+.user-info-desc li span{
+    display: block;
+    font-size: 16px;
+    color: #565656;
+    text-align: left;
+}
+.user-info-desc li span:nth-of-type(1){
+    width: 1.2rem;
+    min-height:1rem;
+    line-height: 1rem;
+}
+.user-info-desc li span:nth-of-type(2){
+    width:4.5rem;
+    line-height: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.user-info-desc li .team{
+    min-height: 1rem !important;
+    overflow: auto!important;
+    white-space: inherit!important;
+}
+.user-info-desc li .team .team-name{
+    line-height: 1.5;
+    padding: 0.26rem 0;
+}
+.user-info-desc li .players .player{
+    height:1rem;
+    line-height: 1rem;
+    margin-top: -0.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.user-info-desc li .players .player:nth-of-type(1){
+    margin-top: 0;
+}
+.sign-title{
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+    color: #019946;
+    font-weight: 700;
+    margin-top: 1.16rem;
+    margin-bottom: 0.86rem;
+}
+.sign-input{
+    padding: 0 0.4rem;
+}
+.sign-input input{
+    width: 6.4rem;
+    border: 1px solid #cccccc;
+    padding-left: 0.3rem;
+    height: 0.9rem;
+    font-size: 16px;
+    border-radius: 0.08rem;
+    outline: none;
+}
+.info-title{
+    padding: 0 0.4rem;
+}
+.info-title-d{
+    width:100%;
+    height:0.77rem;
+    border-bottom: 1px solid #D7D7D7;
+}
+.info-title-i{
+    width:100%;
+    height:0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+    margin-top: -0.18rem;
+}
+.info-title-i span{
+    display: inline-block;
+    color: #565656;
+    padding: 0 0.2rem;
+    background: #FFFFFF;
+    font-size: 18px;
+    margin-top: -12px;
+}
+.sign-suc{
+    width:100%;
+    height: 2.14rem;
+    padding-top: 0.35rem;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+}
+.sign-suc-d{
+    width:2rem;
+    height:2rem;
+    background: #29A7E2;
+    border: 0.07rem solid #BCE4F9;
+    border-radius: 50%;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-flex-flow: column;
+}
+.sign-suc-d img{
+    display: block;
+    width:0.8rem;
+    height:0.56rem;
+    margin-bottom: 0.11rem;
+}
+.sign-suc-d span{
+    font-size: 18px;
+    font-weight: 700;
+    color:  #FFFFFF;
+}
+.smashing-eggs-title{
+    width:100%;
+    text-align: center;
+    color: #CD2026;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+.gold-egg{
+    padding: 0 0.4rem;
+    width:6.7rem;
+    height:3.26rem;
+    position: relative;
+}
+.gold-egg span:nth-of-type(1){
+    display: block;
+    width:5.64rem;
+    height:2.67rem;
+    background: url("../images/cicle.png") no-repeat;
+    background-size: 5.64rem 2.67rem;
+    position: absolute;
+    top:0;
+    left: 0.63rem;
+}
+.gold-egg span:nth-of-type(2){
+    display: block;
+    width:5.78rem;
+    height:2.2rem;
+    background: url("../images/gold_egg.png") no-repeat;
+    background-size: 5.78rem 2.2rem;
+    position: absolute;
+    top:0.85rem;
+    left: 0.95rem;
+}
+.gold-egg span:nth-of-type(4){
+    display: block;
+    width:0.91rem;
+    height:0.62rem;
+    background: url("../images/hammer.png") no-repeat;
+    background-size: 0.91rem 0.62rem;
+    position: absolute;
+    top:0.37rem;
+    left: 3.75rem;
+}
+.gold-egg span:nth-of-type(3){
+    display: block;
+    width:2.23rem;
+    height:1.35rem;
+    background: url("../images/money.png") no-repeat;
+    background-size: 2.23rem 1.35rem;
+    position: absolute;
+    top:0.32rem;
+    left: 2.24rem;
+}
+.s-egg-btn{
+    padding: 0 1.06rem 0 1.03rem;
+    margin-top: 0.41rem;
+    position: relative;
+}
+.s-egg-btn img{
+    width:5.41rem;
+    height:0.96rem;
+    position: absolute;
+    left:1.06rem;
+}
+.s-egg-btn img:nth-of-type(1){
+    top:0.07rem;
+}
+.s-egg-btn img:nth-of-type(2){
+    top:0;
+}
+.s-egg-btn a{
+    display: block;
+    width:5.41rem;
+    height:0.96rem;
+    line-height: 0.96rem;
+    position: absolute;
+    z-index: 2;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+

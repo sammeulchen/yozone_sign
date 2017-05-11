@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>领队报名</title>
+    <link href="../lib/css/ionic.min.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/groupUserReg.css" rel="stylesheet">
+</head>
+<body>
+    <div >
+        <div class="group-infomation">
+            <ul class="list">
+                <li class="item item-thumbnail-left group-name">
+                    <img src="../img/icon-name.png"/>
+                    <span >团体名称</span>
+                    <input type="text" placeholder="请输入团体名称"/>
+
+                </li>
+                <!--用户为新用户是显示的信息-->
+                <li class="item item-thumbnail-left group-name">
+                    <img src="../img/icon-name.png"/>
+                    <span>姓名</span>
+                    <input type="text" placeholder="请输入领队真实姓名" required/>
+                </li>
+                <li class="item item-avatar leader-tel">
+                    <img src="../img/icon-tel.png"/>
+                    <span>电话</span>
+                    <input type="text" placeholder="请输入领队电话"/>
+                    <button class="send-code" >获取验证码</button>
+                </li>
+                <li class="item item-thumbnail-left code">
+                    <img src="../img/icon-captcha.png"/>
+                    <span>验证码</span>
+                    <input type="text" placeholder="请输入验证码"/>
+                </li>
+                <!--用户为老用户时显示的信息-->
+
+                <!--<li class="item item-avatar leader-tel">
+                    <img src="../img/icon-tel.png"/>
+                    <span>电话</span>
+                    <span>13666666666</span>
+                </li>-->
+            </ul>
+        </div>
+        <div class="appear-in-game">
+            <div class="list">
+                <div class="item item-thumbnail-left sex">
+                    <img src="../img/icon-sex.png"/>
+                    <i>性别</i>
+                    <select>
+                        <option>男</option>
+                        <option>女</option>
+                    </select>
+                </div>
+            </div>
+            <div class="personal-information verify-card1">
+                <div class="list">
+                    <div class="item item-thumbnail-left">
+                        <img src="../img/icon-card.png"/>
+                        <i>证件类型</i>
+                        <select>
+                            <option>身份证</option>
+                            <option>护照</option>
+                            <option>...</option>
+                        </select>
+                        <input type="file" id="fileElem" multiple style="display:none">
+                        <div id="fileSelect" class="card-front">
+                            <!--<img class="obj" src="../img/wind-rank.png"/>-->
+                            <div>
+                                <img id="img1" src="../img/front-card.png"/>
+                                <p>上传证件正面照片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="item item-thumbnail-left card-number">
+                        <img src="../img/icon-card-number.png"/>
+                        <i>证件号码</i>
+                        <input type="text" placeholder="请如实填写证件信息">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="kl_4"></div>
+        <div class="group-infomation">
+            <ul class="list">
+                <li class="item item-thumbnail-left leader-name">
+                    <img src="../img/icon-leader-name.png"/>
+                    <span >随队教练</span>
+                    <input type="text" placeholder="填写教练姓名（选填）"/>
+                </li>
+            </ul>
+        </div>
+        <div class="kl_4"></div>
+    </div>
+
+    <!--<div style="padding: 30px 10px">
+
+        <button class="button button-block button-positive">
+            设置单打等级
+        </button>
+        <button class="button button-block button-positive">
+            设置双打等级
+        </button>
+    </div>-->
+    <div class="kl_3"></div>
+    <a href="selectProject.html" class="groupUserReg-btn">
+        下一步
+    </a>
+</body>
+</html>

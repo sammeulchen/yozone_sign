@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>选择项目</title>
+    <link href="../lib/css/ionic.min.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/selectProject.css" rel="stylesheet">
+</head>
+<body>
+    <div class="select-project-container">
+        <div class="selectGroup">
+            <span>选择组别</span>
+        </div>
+        <ul class="select-group">
+            <li class="selected-none">
+                <span>A组</span>
+            </li>
+            <li class="selected-none">
+                <span>B组</span>
+            </li>
+            <li class="selected-none">
+                <span>C组</span>
+            </li>
+        </ul>
+        <div class="selectGroup">
+            <span>选择级别<b style="font-size: 12px;font-weight: 500">（风林火山水平依次升高）</b></span>
+            <a href="classIntroduction.html" class="standard">查看分级标准</a>
+        </div>
+        <ul class="select-group">
+            <li class="selected-none">
+                <i></i>
+                <span>风级</span>
+            </li>
+            <li class="selected-none">
+                <i></i>
+                <span>林级</span>
+            </li>
+        </ul>
+        <div class="selectGroup">
+            <span>项目</span>
+        </div>
+        <ul class="select-group">
+            <li class="selected-none">
+                <span>男双</span>
+            </li>
+        </ul>
+        <div class="owned-club" ng-click="toOwnedClub()">
+            <div class="owned-club-content">
+                <span>所属团体</span>
+                <i>（选填：便于抽签时同队分开）</i>
+            </div>
+            <input type="text" placeholder="请输入团体名称">
+        </div>
+    </div>
+    <div class="asPlayer">
+        <i>是否同时作为队员报名比赛</i>
+        <span>是</span>
+        <span>否</span>
+    </div>
+    <div class="determine-pay">
+        <div class="pay">
+            <div class="statement">
+                <span><img src="../img/home/box.png"/></span>
+                <b>
+                    <a href="disclaimer.html" style="color: #000000">
+                        我同意羽众的免责声明
+                    </a>
+                </b>
+            </div>
+        </div>
+        <a href="pay.html" class="pay-btn">下一步</a>
+       <!-- <div class="pay-btn">完成</div>-->
+    </div>
+</body>
+</html>
